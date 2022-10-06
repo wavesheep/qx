@@ -10,8 +10,8 @@
 sapi.beingfine.cn
 
 [Script]
-http-request ^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
+http-request ^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/bubei/bubei.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/bubei/bubei.js
 ```
 
 ## 配置 (QuanX)
@@ -26,7 +26,7 @@ sapi.beingfine.cn
 ^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in url script-request-header bubei.js
 
 # [TestFlight]
-^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
+^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/bubei/bubei.js
 
 [task_local]
 
@@ -34,7 +34,7 @@ sapi.beingfine.cn
 1 0 * * * bubei.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/bubei/bubei.js
 ```
 
 ## 说明

@@ -11,21 +11,21 @@
 默认兑换积分商城中的"积分兑换", 兑换数量为用户积分可兑换的最大值 (可于BoxJs内修改)
 默认执行时间为中午12:00:10、12:00:20、12:00:30
 
-BoxJs订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
+BoxJs订阅地址: https://raw.githubusercontents.com/NobyDa/Script/master/NobyDa_BoxJs.json
 
 *************************
 【 Surge & Loon 脚本配置 】:
 *************************
 
 [Script]
-cron "10,20,30 0 12 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/ExchangePoints.js, wake-system=1, timeout=60
+cron "10,20,30 0 12 * * *" script-path=https://raw.githubusercontents.com/NobyDa/Script/master/Bilibili-DailyBonus/ExchangePoints.js, wake-system=1, timeout=60
 
 *************************
 【 QX 1.0.10+ 脚本配置 】 :
 *************************
 
 [task_local]
-10,20,30 0 12 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/ExchangePoints.js, tag=哔哩哔哩漫画抢券, enabled=true
+10,20,30 0 12 * * * https://raw.githubusercontents.com/NobyDa/Script/master/Bilibili-DailyBonus/ExchangePoints.js, tag=哔哩哔哩漫画抢券, enabled=true
 
 */
 

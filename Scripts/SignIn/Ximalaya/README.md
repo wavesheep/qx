@@ -17,8 +17,8 @@
 mobwsa.ximalaya.com
 
 [Script]
-http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js
+http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/ximalaya/ximalaya.js
 ```
 
 ## 配置 (QuanX)

@@ -25,11 +25,11 @@ var barkKey = ''; //Bark APP 通知推送key
  QuantumultX 远程脚本配置:
  **********************
  [task_local]
- 0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js, tag=快看漫画, img-url=https://ftp.bmp.ovh/imgs/2020/09/a3345da5e9094363.png, enabled=true
+ 0 9 * * * https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js, tag=快看漫画, img-url=https://ftp.bmp.ovh/imgs/2020/09/a3345da5e9094363.png, enabled=true
 
  [rewrite_local]
  # 获取Cookie
- ^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+ ^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
 
  [mitm]
  hostname= api.kkmh.com
@@ -38,9 +38,9 @@ var barkKey = ''; //Bark APP 通知推送key
  Surge 4.2.0+ 脚本配置:
  **********************
  [Script]
- 快看漫画签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+ 快看漫画签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
 
- 快看漫画获取Cookie = type=http-request,pattern=^https:\/\/api\.kkmh\.com\/v\d\/passport\/user,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+ 快看漫画获取Cookie = type=http-request,pattern=^https:\/\/api\.kkmh\.com\/v\d\/passport\/user,script-path=https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
 
  [MITM]
  hostname= api.kkmh.com
@@ -51,10 +51,10 @@ var barkKey = ''; //Bark APP 通知推送key
 
  [Script]
  # 快看漫画签到
- cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+ cron "0 9 * * *" script-path=https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
 
  # 获取Cookie
- http-request ^https:\/\/api\.kkmh\.com\/v\d\/passport\/user script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+ http-request ^https:\/\/api\.kkmh\.com\/v\d\/passport\/user script-path=https://raw.githubusercontents.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
 
  [Mitm]
  hostname= api.kkmh.com

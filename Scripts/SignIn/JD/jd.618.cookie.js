@@ -3,25 +3,25 @@
  * 进入 叠蛋糕 主页获取 Cookies
  *
  * Surge:
- * Rewrite: JD618 = type=http-request,pattern=^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true
- * Tasks: JD618 = type=cron,cronexp="10,30,50 0,1 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.js,wake-system=true,timeout=1200
- * Tasks: JD618.Boom = type=cron,cronexp="0 10,12,18,20,21 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
- * Tasks: JD618.Boom = type=cron,cronexp="30 21 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
+ * Rewrite: JD618 = type=http-request,pattern=^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData,script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true
+ * Tasks: JD618 = type=cron,cronexp="10,30,50 0,1 * * *",script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.js,wake-system=true,timeout=1200
+ * Tasks: JD618.Boom = type=cron,cronexp="0 10,12,18,20,21 * * *",script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
+ * Tasks: JD618.Boom = type=cron,cronexp="30 21 * * *",script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
  *
  * QuanX:
- * ^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.cookie.js
+ * ^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.cookie.js
  *
  * [task_local]
  * # 远程
- * 10,30,50 0,1 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js, tag=京东618
- * 0 10,12,18,20,21 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
- * 30 21 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
+ * 10,30,50 0,1 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.adapt.js, tag=京东618
+ * 0 10,12,18,20,21 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
+ * 30 21 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
  *
  * Loon:
- * cron "10,30,50 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.adapt.js, timeout=600, tag=京东618
- * cron "0 10,12,18,20,21 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
- * cron "30 21 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
- * http-request ^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true
+ * cron "10,30,50 0,1 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.adapt.js, timeout=600, tag=京东618
+ * cron "0 10,12,18,20,21 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
+ * cron "30 21 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.boom.js, tag=京东618炸弹
+ * http-request ^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true
  *
  * [MITM]
  * hostname = api.m.jd.com

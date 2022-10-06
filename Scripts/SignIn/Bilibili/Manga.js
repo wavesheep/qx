@@ -15,11 +15,11 @@
 QX 1.0.10+ :
 
 [task_local]
-0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画签到
+0 9 * * * https://raw.githubusercontents.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画签到
 
 [rewrite_local]
 #获取Bili漫画Cookie
-^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontents.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
 [mitm]
 hostname = app.bilibili.com

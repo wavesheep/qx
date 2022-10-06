@@ -9,8 +9,8 @@
 api-takumi.mihoyo.com
 
 [Script]
-http-request ^https:\/\/api-takumi.mihoyo.com\/apihub\/api\/getGameList script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.js
+http-request ^https:\/\/api-takumi.mihoyo.com\/apihub\/api\/getGameList script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/mihoyo/mihoyo.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/mihoyo/mihoyo.js
 ```
 
 ## 配置 (QuanX)

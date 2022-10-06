@@ -17,7 +17,7 @@
  注：以上引用地址需要打开并使用KOP-XIAO资源解析器，如没有解析器请使用脚本配置：
 
  [rewrite_local]
- ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
+ ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontents.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 
  * ********************************/
 

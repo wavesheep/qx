@@ -9,8 +9,8 @@
 wxprdapplet.gac-nio.com
 
 [Script]
-http-request ^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.js
+http-request ^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/hycan/hycan.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/hycan/hycan.js
 ```
 
 ## 配置 (QuanX)
@@ -25,7 +25,7 @@ wxprdapplet.gac-nio.com
 ^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ url script-request-header hycan.cookie.js
 
 # [TestFlight]
-^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.cookie.js
+^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/hycan/hycan.cookie.js
 
 [task_local]
 
@@ -33,7 +33,7 @@ wxprdapplet.gac-nio.com
 1 0 * * * hycan.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/hycan/hycan.js
 ```
 
 ## 说明

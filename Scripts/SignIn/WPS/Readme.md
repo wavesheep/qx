@@ -17,8 +17,8 @@
 hostname = zt.wps.cn
 
 [Script]
-http-request ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
+http-request ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wps/wps.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wps/wps.js
 ```
 
 ## 配置 (QuanX)

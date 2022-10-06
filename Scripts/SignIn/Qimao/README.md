@@ -9,8 +9,8 @@
 xiaoshuo.qm989.com
 
 [Script]
-http-request ^https:\/\/xiaoshuo\.qm989\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js
+http-request ^https:\/\/xiaoshuo\.qm989\.com script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/qimao/qmnovel.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/qimao/qmnovel.js
 ```
 
 ## 配置 (QuanX)
@@ -25,7 +25,7 @@ xiaoshuo.qm989.com
 ^https:\/\/xiaoshuo\.qm989\.com url script-request-header qmnovel.js
 
 # [TestFlight]
-^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js
+^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/qimao/qmnovel.js
 
 [task_local]
 
@@ -33,7 +33,7 @@ xiaoshuo.qm989.com
 1 0 * * * qmnovel.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/qimao/qmnovel.js
 ```
 
 ## 说明

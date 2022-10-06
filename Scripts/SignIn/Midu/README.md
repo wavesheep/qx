@@ -18,11 +18,11 @@
 apiwz.midukanshu.com
 
 [Script]
-http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/midu.cookie.js, requires-body=true
+http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/midu/midu.cookie.js, requires-body=true
 
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js
-cron "*/1 * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/midu/miduSign.js
+cron "*/1 * * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/midu/miduRead.js
 ```
 
 ## 配置 (QuanX)
@@ -37,7 +37,7 @@ apiwz.midukanshu.com
 ^https:\/\/apiwz\.midukanshu\.com url script-request-body midu.cookie.js
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/apiwz\.midukanshu\.com url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/midu/midu.cookie.js
+^https:\/\/apiwz\.midukanshu\.com url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/midu/midu.cookie.js
 
 
 

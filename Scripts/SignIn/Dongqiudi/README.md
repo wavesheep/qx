@@ -9,8 +9,8 @@
 api.dongqiudi.com
 
 [Script]
-http-request ^https:\/\/api\.dongqiudi\.com\/v2\/user\/is_login script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.js
+http-request ^https:\/\/api\.dongqiudi\.com\/v2\/user\/is_login script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/dongqiudi/dongqiudi.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/dongqiudi/dongqiudi.js
 ```
 
 ## 配置 (QuanX)

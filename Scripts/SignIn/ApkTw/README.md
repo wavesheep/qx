@@ -9,8 +9,8 @@
 apk.tw
 
 [Script]
-http-request ^https://apk.tw\/member.php(.*?)action=login script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.cookie.js,requires-body=true
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.js
+http-request ^https://apk.tw\/member.php(.*?)action=login script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/apktw/apktw.cookie.js,requires-body=true
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/apktw/apktw.js
 ```
 
 ## 配置 (QuanX)

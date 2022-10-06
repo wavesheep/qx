@@ -9,8 +9,8 @@
 user.qunar.com
 
 [Script]
-http-request ^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js
+http-request ^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/qunar/qunar.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/qunar/qunar.js
 ```
 
 ## 配置 (QuanX)

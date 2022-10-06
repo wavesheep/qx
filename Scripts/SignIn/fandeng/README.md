@@ -13,9 +13,9 @@
 api.dushu.io
 
 [Script]
-http-request ^https://api\.dushu\.io/CheckIn script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js, requires-body=true
+http-request ^https://api\.dushu\.io/CheckIn script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js, requires-body=true
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/fandeng/fandeng.js
 ```
 
 ## 配置 (QuanX)
@@ -30,7 +30,7 @@ api.dushu.io
 # 不支持
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https://api\.dushu\.io/CheckIn url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js
+^https://api\.dushu\.io/CheckIn url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js
 
 [task_local]
 1 0 * * * fandeng.js

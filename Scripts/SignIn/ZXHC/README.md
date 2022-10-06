@@ -13,9 +13,9 @@
 m.ctrip.com
 
 [Script]
-http-request ^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js, requires-body=true
+http-request ^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js, requires-body=true
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zxhc/zxhc.js
 ```
 
 ## 配置 (QuanX)
@@ -28,13 +28,13 @@ m.ctrip.com
 #&QuanX
 ^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? url script-request-body chavyleung/zxhc/zxhc.cookie.js
 # QuanTF
-^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js
+^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js
 
 [task_local]
 1 0 * * * zxhc.js
 
 [task_remote]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/zxhc/zxhc.js
 ```
 
 ## 说明

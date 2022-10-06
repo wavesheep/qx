@@ -10,8 +10,8 @@
 activity-1.m.duiba.com.cn
 
 [Script]
-http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
+http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ requires-body=1,max-size=0,script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/haidilao/hdl.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/haidilao/hdl.js
 ```
 
 ## 配置 (QuanX)
@@ -26,7 +26,7 @@ activity-1.m.duiba.com.cn
 ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ url script-request-body hdl.js
 
 # [TestFlight]
-^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
+^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/haidilao/hdl.js
 
 [task_local]
 
@@ -34,7 +34,7 @@ activity-1.m.duiba.com.cn
 1 0 * * * hdl.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/haidilao/hdl.js
 ```
 
 ## 说明

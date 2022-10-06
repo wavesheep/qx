@@ -10,8 +10,8 @@
 iphone.myzaker.com
 
 [Script]
-http-request ^https:\/\/iphone\.myzaker\.com\/zaker\/sign_in\/\/api\/sign_in\.php script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js
+http-request ^https:\/\/iphone\.myzaker\.com\/zaker\/sign_in\/\/api\/sign_in\.php script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zaker/zaker.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zaker/zaker.js
 ```
 
 ## 配置 (QuanX)
@@ -26,7 +26,7 @@ iphone.myzaker.com
 ^https:\/\/iphone\.myzaker\.com\/zaker\/sign_in\/\/api\/sign_in\.php url script-request-header zaker.js
 
 # [TestFlight]
-^https:\/\/iphone\.myzaker\.com\/zaker\/sign_in\/\/api\/sign_in\.php url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js
+^https:\/\/iphone\.myzaker\.com\/zaker\/sign_in\/\/api\/sign_in\.php url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/zaker/zaker.js
 
 [task_local]
 
@@ -34,7 +34,7 @@ iphone.myzaker.com
 1 0 * * * zaker.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/zaker/zaker.js
 ```
 
 ## 说明

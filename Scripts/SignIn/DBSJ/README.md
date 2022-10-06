@@ -14,9 +14,9 @@
 frodo.douban.com
 
 [Script]
-http-request ^https:\/\/frodo\.douban\.com\/api\/v2\/niffler\/check_in\/status script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.cookie.js
+http-request ^https:\/\/frodo\.douban\.com\/api\/v2\/niffler\/check_in\/status script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/dbsj/dbsj.cookie.js
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/dbsj/dbsj.js
 ```
 
 ## 配置 (QuanX)
@@ -31,7 +31,7 @@ frodo.douban.com
 ^https:\/\/frodo\.douban\.com\/api\/v2\/niffler\/check_in\/status url script-request-header dbsj.cookie.js
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/frodo\.douban\.com\/api\/v2\/niffler\/check_in\/status url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.cookie.js
+^https:\/\/frodo\.douban\.com\/api\/v2\/niffler\/check_in\/status url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/dbsj/dbsj.cookie.js
 
 [task_local]
 1 0 * * * dbsj.js

@@ -29,7 +29,7 @@ var OtherKey = ''; //第三账号或以上的Cookie json串数据, 以下样例�
 初次使用时, app配置文件添加脚本配置,并启用Mitm后, Safari浏览器打开登录 https://bean.m.jd.com/bean/signIndex.action ,点击签到并且出现签到日历后, 如果通知获得cookie成功, 则可以使用此签到脚本。 注: 请勿在京东APP内获取!!!
 由于cookie的有效性(经测试网页Cookie有效周期最长31天)，如果脚本后续弹出cookie无效的通知，则需要重复上述步骤。 
 签到脚本将在每天的凌晨0:05执行, 您可以修改执行时间。 因部分接口京豆限量领取, 建议调整为凌晨签到。
-BoxJs或QX Gallery订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
+BoxJs或QX Gallery订阅地址: https://raw.githubusercontents.com/NobyDa/Script/master/NobyDa_BoxJs.json
 *************************
 【 配置多京东账号签到说明 】 : 
 *************************
@@ -39,16 +39,16 @@ BoxJs或QX Gallery订阅地址: https://raw.githubusercontent.com/NobyDa/Script/
 【Surge 4.2+ 脚本配置】:
 *************************
 [Script]
-京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 [MITM]
 hostname = api.m.jd.com
 *************************
 【Loon 2.1+ 脚本配置】:
 *************************
 [Script]
-cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean tag=获取京东Cookie, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean tag=获取京东Cookie, script-path=https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 [MITM]
 hostname = api.m.jd.com
 *************************
@@ -57,11 +57,11 @@ hostname = api.m.jd.com
 [task_local]
 # 京东多合一签到
 # 注意此为远程路径, 低版本用户请自行调整为本地路径.
-5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true
+5 0 * * * https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontents.com/NobyDa/mini/master/Color/jd.png,enabled=true
 [rewrite_local]
 # 获取京东Cookie. 
 # 注意此为远程路径, 低版本用户请自行调整为本地路径.
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontents.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 [mitm]
 hostname = api.m.jd.com
 *************************/

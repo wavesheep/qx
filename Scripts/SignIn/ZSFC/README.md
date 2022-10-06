@@ -9,8 +9,8 @@
 mwegame.qq.com
 
 [Script]
-http-request ^https:\/\/mwegame\.qq\.com\/ams\/sign\/doSign\/month script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js
+http-request ^https:\/\/mwegame\.qq\.com\/ams\/sign\/doSign\/month script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zsfc/zsfc.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/zsfc/zsfc.js
 ```
 
 ## 配置 (QuanX)
@@ -25,7 +25,7 @@ mwegame.qq.com
 ^https:\/\/mwegame\.qq\.com\/ams\/sign\/doSign\/month url script-request-header zsfc.js
 
 # [TestFlight]
-^https:\/\/mwegame\.qq\.com\/ams\/sign\/doSign\/month url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js
+^https:\/\/mwegame\.qq\.com\/ams\/sign\/doSign\/month url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/zsfc/zsfc.js
 
 [task_local]
 
@@ -33,7 +33,7 @@ mwegame.qq.com
 1 0 * * * zsfc.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/zsfc/zsfc.js
 ```
 
 ## 说明

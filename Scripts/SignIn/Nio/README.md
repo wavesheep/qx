@@ -9,8 +9,8 @@
 app.nio.com
 
 [Script]
-http-request ^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js
+http-request ^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/nio/nio.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/nio/nio.js
 ```
 
 ## 配置 (QuanX)
@@ -25,7 +25,7 @@ app.nio.com
 ^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin url script-request-header nio.cookie.js
 
 # [TestFlight]
-^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.cookie.js
+^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/nio/nio.cookie.js
 
 [task_local]
 
@@ -33,7 +33,7 @@ app.nio.com
 1 0 * * * nio.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js
+1 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/nio/nio.js
 ```
 
 ## 说明

@@ -9,8 +9,8 @@
 www.maomicd.com
 
 [Script]
-http-request https:\/\/www.maomicd.com\/plugin.php\?id=k_misign:sign&operation=qiandao script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.js
+http-request https:\/\/www.maomicd.com\/plugin.php\?id=k_misign:sign&operation=qiandao script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/maomicd/maomicd.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/maomicd/maomicd.js
 ```
 
 ## 配置 (QuanX)

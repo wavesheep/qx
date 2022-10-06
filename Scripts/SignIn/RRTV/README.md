@@ -17,8 +17,8 @@
 *.rr.tv
 
 [Script]
-http-request ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+http-request ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/rrtv/rrtv.js
 ```
 
 ## 配置 (QuanX)

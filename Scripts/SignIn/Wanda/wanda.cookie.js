@@ -3,16 +3,16 @@
  * hostname = user-api-prd-mx.wandafilm.com
  *
  * # Surge
- * Rewrite: wanda = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
- * Tasks: wanda-签到 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+ * Rewrite: wanda = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
+ * Tasks: wanda-签到 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
  *
  * # QuanX
- * ^https:\/\/user-api-prd-mx\.wandafilm\.com url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js
- * 10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=wanda-签到
+ * ^https:\/\/user-api-prd-mx\.wandafilm\.com url script-request-header https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.cookie.js
+ * 10 0 * * * https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.js, tag=wanda-签到
  *
  * # Loon
- * http-response ^https:\/\/user-api-prd-mx\.wandafilm\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js
- * cron "10 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js
+ * http-response ^https:\/\/user-api-prd-mx\.wandafilm\.com script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.cookie.js
+ * cron "10 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wanda/wanda.js
  *
  * # 获取方式:进入签到页面获取，网页端:https://act-m.wandacinemas.com/2005/17621a8caacc4d190dadd/
  */

@@ -13,9 +13,9 @@
 m-bean.kaola.com
 
 [Script]
-http-request ^https:\/\/m-bean\.kaola\.com/m/point/sign\.html script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.cookie.js, requires-body=true
+http-request ^https:\/\/m-bean\.kaola\.com/m/point/sign\.html script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wykl/wykl.cookie.js, requires-body=true
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/wykl/wykl.js
 ```
 
 ## 配置 (QuanX)
@@ -30,7 +30,7 @@ m-bean.kaola.com
 # ^https:\/\/m-bean\.kaola\.com/m/point/sign\.html url script-request-body wykl.cookie.js
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/m-bean\.kaola\.com/m/point/sign\.html url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.cookie.js
+^https:\/\/m-bean\.kaola\.com/m/point/sign\.html url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/wykl/wykl.cookie.js
 
 [task_local]
 1 0 * * * wykl.js

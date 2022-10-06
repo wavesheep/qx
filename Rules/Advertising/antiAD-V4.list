@@ -22175,7 +22175,7 @@ host-suffix,googleads.github.io,REJECT
 host-suffix,baidut.github.io,REJECT
 host-suffix,techhome-js.github.io,REJECT
 host-suffix,collector.githubapp.com,REJECT
-host-suffix,copilot-telemetry.githubusercontent.com,REJECT
+host-suffix,copilot-telemetry.githubusercontents.com,REJECT
 host-suffix,gitoku.com,REJECT
 host-suffix,eg.gitpapa.com,REJECT
 host-suffix,truehits1.gits.net.th,REJECT

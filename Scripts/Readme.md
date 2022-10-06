@@ -63,7 +63,7 @@
  
 例如：
 
-① https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Scripts/Example/Example.js `此为浏览器地址栏中获取到的链接`
+① https://raw.githubusercontents.com/sve1r/Rules-For-Quantumult-X/master/Scripts/Example/Example.js `此为浏览器地址栏中获取到的链接`
 
 或
 

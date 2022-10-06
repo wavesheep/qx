@@ -11,9 +11,9 @@
 www.duokan.com
 
 [Script]
-http-request ^https:\/\/www\.duokan\.com\/checkin\/v0\/status script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js, requires-body=true
+http-request ^https:\/\/www\.duokan\.com\/checkin\/v0\/status script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/duokan/duokan.cookie.js, requires-body=true
 
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js
+cron "0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/duokan/duokan.js
 ```
 
 ## 配置 (QuanX)
@@ -27,7 +27,7 @@ www.duokan.com
 ^https:\/\/www\.duokan\.com\/checkin\/v0\/status url script-request-body duokan.cookie.js
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https:\/\/www\.duokan\.com\/checkin\/v0\/status url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js
+^https:\/\/www\.duokan\.com\/checkin\/v0\/status url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/duokan/duokan.cookie.js
 
 [task_local]
 0 0 * * * duokan.js

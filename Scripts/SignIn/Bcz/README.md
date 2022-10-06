@@ -15,9 +15,9 @@
 group.baicizhan.com
 
 [Script]
-http-request ^https://group\.baicizhan\.com/group/rewards? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.cookie.js
+http-request ^https://group\.baicizhan\.com/group/rewards? script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/bcz/bcz.cookie.js
 
-cron "0 50 23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.js
+cron "0 50 23 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/bcz/bcz.js
 ```
 
 ## 配置 (QuanX)

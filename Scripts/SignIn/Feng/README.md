@@ -19,8 +19,8 @@
 *.feng.com
 
 [Script]
-http-request ^https:\/\/(www\.)?feng\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
+http-request ^https:\/\/(www\.)?feng\.com\/?.? script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/feng/feng.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/feng/feng.js
 ```
 
 ## 配置 (QuanX)

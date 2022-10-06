@@ -14,12 +14,12 @@
 pm.m.fenqile.com
 
 [Script]
-http-request ^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
+http-request ^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
 
-http-request ^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
+http-request ^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
 
 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontents.com/chavyleung/scripts/master/fenqile/fenqile.js
 ```
 
 ## 配置 (QuanX)
@@ -34,8 +34,8 @@ pm.m.fenqile.com
 # 支持request-body 脚本可食用,换成本地
 
 # [TestFlight] QuanX v1.0.6-build195 及以后版本
-^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
-^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
+^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
+^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json url script-request-body https://raw.githubusercontents.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
 
 [task_local]
 1 0 * * * fenqile.js

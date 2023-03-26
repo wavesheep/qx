@@ -56,6 +56,7 @@ host-suffix,pstatp.com,DIRECT
 host-suffix,snssdk.com,DIRECT
 host-suffix,iesdouyin.com,DIRECT
 host-suffix,toutiao.com,DIRECT
+host-suffix,zijieapi.com,DIRECT
 # 百度
 host-suffix,baidu.com,DIRECT
 host-suffix,baidubcr.com,DIRECT
